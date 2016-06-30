@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>-->
+    
+    <title>The SVG show part 2</title>
+</head>
+<body>
+    <header>
+        <h1>The SVG show Chapitre 2</h1>
+        <h2>Sommaire</h2>
+        <ul>
+            <li>Introduction</li>
+            <li>L'animation en détail</li>
+            <li>Méthodes d'inclusion</li>
+            <li>La balise defs</li>
+            <li>Les masques</li>
+            <li>Logiciels et liens utiles</li>
+        </ul>
+    </header>
+    <main>
+        <h2>I Introduction</h2>
+        <p>Après avoir eu un bref apérçu des possibilités du SVG et son anatomie il est temps à présent de s'interesse à des exemples plus concret d'une utilisation réél de cette petite merveille.<br>
+        Au fil de cet article je vous présenterait les diverses modes d'inclusion du SVG et leurs avantages et inconvenients; puis s'en suivra une introduction à l'animation du SVG via CSS, Javascript, SMIL et une introduction au WAAPI (Web animation API); après quoi nous nous intéresserons à la balise defs, zone magique qui nous fera gagner un temps et un espace de code très important, suivi d'un survol des masques dans le SVG pour finir sur une présentations de quelques logiciels permettant de plus aisément créer des SVG leger et sémantiquement sains.
+        </p>
+    </main>
+    <script>
+        function sID(id) {return document.getElementById(id);}
+
+
+//SVG attributes shorthand
+
+    function setd(id,_d) {sID(id).setAttribute("d",_d);}
+    function setx(id,_x) {sID(id).setAttribute("x",_x);}
+    function sety(id,_y) {sID(id).setAttribute("y",_y);}
+    function setcy(id,_cy) {sID(id).setAttribute("cy",_cy);}
+    function setcx(id,_cx) {sID(id).setAttribute("cx",_cx);}
+    function setr(id,_r) {sID(id).setAttribute("r",_r);}
+    function setrx(id,_rx) {sID(id).setAttribute("rx",_rx);}
+    function setry(id,_ry) {sID(id).setAttribute("ry",_ry);}
+    function setheight(id,_height) {sID(id).setAttribute("height",_height);}
+    function setwidth(id,_width) {sID(id).setAttribute("width",_width);}
+    function setfill(id,_fill) {sID(id).setAttribute("fill",_fill);}
+    function setstroke(id,_stroke) {sID(id).setAttribute("stroke",_stroke);}
+    function setstroke_width(id,_stroke_width) {sID(id).setAttribute("stroke-width",_stroke_width);}
+    function setstroke_dasharray(id,_stroke_dasharray) {sID(id).setAttribute("stroke-dasharray",_stroke_dasharray);}
+    function setstroke_dashoffset(id,_stroke_dashoffset) {sID(id).setAttribute("stroke-dashoffset",_stroke_dashoffset);}
+    
+    
+
+    </script>
+</body>
+</html>
