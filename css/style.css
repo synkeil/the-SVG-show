@@ -1,0 +1,60 @@
+body                   {background: #e3e2dd;font-family: 'Poiret One', cursive;}
+main 		           {display:flex;flex-direction: column;margin:auto;text-align: left;color:black;height:100%;width:100vw;min-width:960px;}
+pre                    {font-family: 'Poiret One', cursive;}
+input                  {width:60px;}
+nav                    {position: fixed;width:250px;height:150px;right:0px;}
+h2                     {text-decoration: underline; text-align: center;}
+#theRektShow,
+#theCircleShow         {display:flex;justify-content: space-around;align-items: center;padding: 3% 0;width:100vw;}
+#theCircleShow         {margin: 5% 0}
+#xpl                   {display:flex;justify-content: space-around;flex-direction:column;align-items: center;margin: 5% 0}
+#inputing_demo         {margin: 4% 0}
+#wih_Dhollows          {width:640px;}
+#whrItHpnsDemo         {width: 45vw;height: 300px;background: #eee;box-shadow: inset 0px 0px 13px 3px rgba(0,0,0,0.45);}
+#cod_wrapper           {width:100%}
+#cod_wrapper,
+#code_wrapper          {text-align: left;}
+#buttRekt,
+#buttCrcl              {width:150px;}
+#inputing,
+#inputingCrcl          {display:flex;flex-direction:column;align-items: flex-start;justify-content: space-between;height:100%;}
+#showcase              {display:flex;flex-flow: column;align-items: center;}
+#WrapperDhollows       {display: flex;flex-direction: column;align-items: center}
+#preDhollows           {display: flex;flex-wrap: wrap;justify-content: center;}
+#intro                 {width:90%;margin:auto;}
+#wih_icon1,
+#wih_icon2,
+#wih_icon3             {height:200px;width:240px;margin-top: 2%;}
+#icon_show1,
+#icon_show2,
+#icon_show3            {fill:#f55;stroke:#000; stroke-width:2px; stroke-dasharray:622;stroke-dashoffset:622;opacity:1;transition:all 1s ease}
+#icon_show1:hover      {stroke-dashoffset:0;transition:stroke-dashoffset 1s ease}
+#icon_show2:hover      {fill:#55d1ff;transition:fill .5s ease}
+#icon_show3:hover      {opacity:0;transition:opacity .5s ease}
+.wih                   {width: 300px;height: 300px;background: #eee;box-shadow: inset 0px 0px 13px 3px rgba(0,0,0,0.45);}
+.wih_wrapper           {display:flex;flex-direction:column;align-items: center;justify-content: space-between;height: 100%;}
+.grow                  {background: #ff8b8b;border: none;border-radius: 10px 10px 10px 10px;width:120px;height: 30px;}
+.hoverColChg           {background: rgba(98, 29, 8, 0);border: 2px solid #000;border-radius: 10px 10px 10px 10px;width:120px;height: 30px;transition:all .5s ease .1s;}
+.ghosting              {background: rgba(98, 29, 8, 0);border: 2px dotted #000;border-radius: 10px 10px 10px 10px;width:120px;height: 30px;}
+.hoverColChg:hover     {background: rgb(178, 45, 45);border: 2px solid #fff;border-radius: 10px 10px 10px 10px;width:120px;height: 30px;color:white;}
+.valHglgt              {color:#f55;text-decoration: underline;}
+.txt_left              {text-align: left;}
+.txt_just              {text-align: justify;}
+.txt_center            {text-align: center;}
+.menuCellsClose        {transform-origin: 45% 100% 0px;transform: scale(0); transition:transform .5s cubic-bezier(.53, -0.44, .46, 1.45);}
+.menuCellsOpen         {transform-origin: 45% 100% 0px;transform: scale(1); transition:transform .5s cubic-bezier(.53, -0.44, .46, 1.45);}
+.float_l               {float:left;}
+.resize                {font-size: 0.9em;}
+
+/*The nav*/
+
+#menu                  {display: block;margin: 0 auto;overflow:visible;}
+a                      {cursor: pointer;outline: none;}
+.item .sector          {transition: all .1s linear;fill: #272727;stroke: #111;}
+.item:hover .sector,
+.item:focus .sector    {fill: #494949;}
+.menu-trigger          {fill: #f55;pointer-events: auto;transform:rotate(17deg) translateY(-90px) translateX(55px)}
+.menu-trigger:hover,
+.menu-trigger:focus    {cursor: pointer;}
+symbol                 {overflow: visible;}
+#symbolsContainer text {transform: rotate(180deg);}
